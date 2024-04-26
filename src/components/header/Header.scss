@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  height: 82px;
+  background: #242424;
+  padding: 10px 30px;
+  justify-content: space-around;
+  align-items: center;
+
+  .logo {
+    color: #fff;
+  }
+
+  .menu {
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: space-between;
+
+    li {
+      list-style: none;
+      cursor: pointer;
+      font-weight: 500;
+      &:hover {
+        color: #9a33ff;
+        font-size: 18px;
+      }
+    }
+  }
+  .tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+    .icon-dark-mode {
+      color: #fff;
+      cursor: pointer;
+      font-size: 25px;
+      &:hover{
+        font-size: 30px;
+      }
+    }
+    .language {
+      color: #fff;
+      cursor: pointer;
+      &:hover{
+        font-size: 18px;
+      }
+    }
+  }
+}
