@@ -1,0 +1,30 @@
+.main-content {
+  padding: 50px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .avatar {
+    width: 270px;
+    height: 270px;
+  }
+  .subtitle {
+    color: #fff;
+    font-size: 40px;
+    width: 60%;
+    text-align: center;
+    font-weight: 800;
+    .experience {
+      background: linear-gradient(to right, #ff8660, #9a33ff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  }
+  .description {
+    width: 60%;
+    color: #c5c5c5;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
