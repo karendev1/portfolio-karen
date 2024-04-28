@@ -1,12 +1,11 @@
 import "./Header.scss";
 import { FaCloudSun } from "react-icons/fa";
+import Logo from '../../assets/images/logo.png';
 
 function Header() {
   return (
     <div className="header">
-      <h1 className="logo">
-        Karen Santana
-      </h1>
+      <img src={Logo} alt="Karen Santana" className="logo" />
 
       <ul className="menu">
         <li>Home</li>
