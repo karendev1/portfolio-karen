@@ -1,5 +1,11 @@
 import "./Home.scss";
 import User from "../../assets/images/user.png";
+import { FaReact } from "react-icons/fa";
+import { FaAngular } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
+import { FaWordpress } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript } from "react-icons/si";
 
 function Home() {
   return (
@@ -18,12 +24,29 @@ function Home() {
         funcionais. Ao longo da minha jornada, mergulhei nas complexidades do
         desenvolvimento web, aprimorando minhas habilidades em HTML, CSS,
         JavaScript e seus frameworks para traduzir conceitos criativos em
-        experiências digitais memoráveis. Meu compromisso com a inovação e a
-        busca incessante pela excelência me capacitam a enfrentar desafios
-        complexos de desenvolvimento com confiança e determinação. Estou pronto
-        para colaborar com você na criação de soluções web impactantes que
-        elevam sua marca ao próximo nível."
+        experiências digitais memoráveis."
       </p>
+
+      <div className="buttons">
+        <button type="button" className="button contact-button">
+          Entrar em Contato
+        </button>
+        <button type="button" className="button download-button">
+          Download CV
+        </button>
+      </div>
+
+      <div className="experience-content">
+        <h2 className="experience-subtitle">Experiência com</h2>
+        <div className="icons">
+          <FaReact className="icon icon-react" />
+          <FaAngular className="icon icon-angular" />
+          <SiNextdotjs className="icon icon-next" />
+          <FaWordpress className="icon icon-wordpress" />
+          <IoLogoJavascript className="icon icon-javascript" />
+          <SiTypescript className="icon icon-typescript" />
+        </div>
+      </div>
     </div>
   );
 }
